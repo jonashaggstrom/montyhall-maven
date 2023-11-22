@@ -13,11 +13,7 @@ public class MontyHall {
 	//one who does not change selection one that changes box every time and one that changes his last guess.
 	
     public static void main(String[] args) {
-    	System.out.println("args.length:" + args.length);
-        if (args.length != 1) {
-            System.out.println("Usage: java MontyHall");
-            System.exit(1);
-        }
+
         // Create an instance of AppConfig
         new AppConfig();
         //Host Simulator
