@@ -2,8 +2,8 @@ package com.jh.montyhall.sim;
 
 import java.util.List;
 
-import com.jh.montyhall.data.Helpers;
-import com.jh.montyhall.data.AppConfig;
+import com.jh.montyhall.utils.Helpers;
+import com.jh.montyhall.conf.AppConfig;
 import com.jh.montyhall.participant.MontyHallContestant;
 
 public class MontyHallSim {

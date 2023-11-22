@@ -1,4 +1,4 @@
-package com.jh.montyhall.data;
+package com.jh.montyhall.conf;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,10 +1,12 @@
-package com.jh.montyhall.data;
+package com.jh.montyhall.utils;
 
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
+import com.jh.montyhall.conf.AppConfig;
 
 public class Helpers {
 

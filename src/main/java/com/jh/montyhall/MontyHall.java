@@ -1,6 +1,6 @@
 package com.jh.montyhall;
 
-import com.jh.montyhall.data.AppConfig;
+import com.jh.montyhall.conf.AppConfig;
 import com.jh.montyhall.participant.MontyHallContestant;
 import com.jh.montyhall.participant.MontyHallContestant.PType;
 import com.jh.montyhall.sim.MontyHallSim;

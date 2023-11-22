@@ -1,7 +1,7 @@
 package com.jh.montyhall.participant;
 import java.util.List;
 
-import com.jh.montyhall.data.Helpers;
+import com.jh.montyhall.utils.Helpers;
 public class MontyHallContestant implements Contestant {
 
 	public enum PType {
