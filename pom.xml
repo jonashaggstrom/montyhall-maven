@@ -5,7 +5,7 @@
 	<groupId>com.jh</groupId>
 	<artifactId>montyhall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>montyhall</name>
+	<name>montyhall-maven</name>
 	<description>a Monty hall simulation</description>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
