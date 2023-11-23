@@ -15,12 +15,10 @@ public class Helpers {
 	}
 
 	public static List<Integer> getBoxes() {
-		return IntStream.rangeClosed(AppConfig.lowestBox, AppConfig.highestBox).boxed().collect(Collectors.toList()); 
+		return IntStream.rangeClosed(AppConfig.lowestBox, AppConfig.highestBox).boxed().collect(Collectors.toList());
 	}
-	
-	public static Integer pickANewBox(List<Integer> boxList, int lastGuess) throws NoSuchElementException{
-		return boxList.stream()
-        .filter(e -> e!=lastGuess)
-        .findFirst().get();
+
+	public static Integer pickANewBox(List<Integer> boxList, int lastGuess) throws NoSuchElementException {
+		return boxList.stream().filter(e -> e != lastGuess).findFirst().get();
 	}
 }
